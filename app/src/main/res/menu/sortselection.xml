@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:orderInCategory="1"
+        android:title="Sort By:"
+        android:enabled="false"
+        />
+    <item
+        android:id="@+id/action_most_popular"
+        android:orderInCategory="2"
+        android:title="@string/menu_most_popular"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/action_highest_rated"
+        android:orderInCategory="3"
+        android:title="@string/menu_highest_rated"
+        app:showAsAction="collapseActionView"
+        />
+    <item
+        android:id="@+id/action_show_favorited"
+        android:orderInCategory="4"
+        android:title="@string/menu_favorited"
+        app:showAsAction="collapseActionView"
+        />
+</menu>

@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="menu_most_popular">Most Popular</string>
+    <string name="menu_highest_rated">Highest Rated</string>
+    <string name="menu_favorited">Favorited</string>
+
+    <string name="details_title">Title</string>
+    <string name="details_plot_synopsis">Plot Synopsis</string>
+    <string name="details_release_date">Release Date</string>
+    <string name="details_user_rating">User Rating</string>
+
+    <string name="param_api">api_key</string>
+    <string name="query_apikey"></string>
+    <string name="param_language">language</string>
+    <string name="query_language">en-US</string>
+    <string name="param_page">page</string>
+    <string name="base_url">https://api.themoviedb.org/3</string>
+
+    <string name="load_db_favorites">"LOAD_FROM_DB"</string>
+    <string name="get_most_popular">"movie/popular"</string>
+    <string name="get_top_rated">"movie/top_rated"</string>
+    <string name="get_movie">"movie/"</string>
+    <string name="get_movie_trailers">"/videos"</string>
+    <string name="get_movie_reviews">"/reviews"</string>
+
+    <string name="base_url_images">"http://image.tmdb.org/t/p/"</string>
+    <!--<string name="base_url_images_secure">"https://image.tmdb.org/t/p/"</string>-->
+
+    <string-array name="poster_sizes">
+        <item>"w92"</item>
+        <item>"w154"</item>
+        <item>"w185"</item>
+        <item>"w342"</item>
+        <item>"w500"</item>
+        <item>"w780"</item>
+        <item>"original"</item>
+    </string-array>
+    <!--<string-array name="backdrop_sizes">-->
+        <!--<item>"w300"</item>-->
+        <!--<item>"w780"</item>-->
+        <!--<item>"w1280"</item>-->
+        <!--<item>"original"</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="logo_sizes">-->
+        <!--<item>"w45"</item>-->
+        <!--<item>"w92"</item>-->
+        <!--<item>"w154"</item>-->
+        <!--<item>"w185"</item>-->
+        <!--<item>"w300"</item>-->
+        <!--<item>"w500"</item>-->
+        <!--<item>"original"</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="profile_sizes">-->
+        <!--<item>"w45"</item>-->
+        <!--<item>"w185"</item>-->
+        <!--<item>"h632"</item>-->
+        <!--<item>"original"</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="still_sizes">-->
+        <!--<item>"w92"</item>-->
+        <!--<item>"w185"</item>-->
+        <!--<item>"w300"</item>-->
+        <!--<item>"original"</item>-->
+    <!--</string-array>-->
+
+    <string name="userRatingLabel">User Rating:</string>
+    <string name="releaseDateLabel">Released:</string>
+</resources>
